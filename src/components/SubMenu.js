@@ -17,18 +17,18 @@ export default function SubMenu() {
   return (
     <div>
       <Button
-        id="basic-button"
+        id='basic-button'
         aria-controls={open ? 'basic-menu' : undefined}
-        aria-haspopup="true"
+        aria-haspopup='true'
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
         endIcon={<KeyboardArrowDown />}
         sx={{ color: 'black' }}
       >
-        STORIES
+        Stories
       </Button>
       <Menu
-        id="basic-menu"
+        id='basic-menu'
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
