@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 import { createTheme } from '@mui/material/styles';
-=======
-import { createTheme } from '@mui/system';
->>>>>>> master
+// import { createTheme } from '@mui/system';
 
 export const Colors = {
   primary: '#00adb5',
@@ -51,13 +48,7 @@ const overrides = {
 };
 
 // TODO: use overrides object to create theme
-<<<<<<< HEAD
-const theme = createTheme({
-
-});
-=======
 const theme = createTheme(overrides);
->>>>>>> master
 
 export { overrides };
 

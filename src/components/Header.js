@@ -8,20 +8,11 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import PersonIcon from '@mui/icons-material/Person';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import Divider from '@mui/material/Divider';
-import MenuIcon from '@mui/icons-material/Menu';
-
-
-
-
+import SlidebarMenu from './SlidebarMenu';
 
 
 const Header = () => {
 
-    // const is600px = useMediaQuery('(max-width:899px)');
-    // const less600px = useMediaQuery('(max-width:600px)');
-    // const is900px = useMediaQuery('(min-width:900px)');
-      
-    // const [open, setOpen] = useState(false)
 
     const StyleToolbar = styled(Toolbar)({
         display: 'flex',
@@ -46,7 +37,7 @@ const Header = () => {
             <StyleToolbar>
                 <Hidden mdUp>
                         <IconButton>
-                            <MenuIcon />
+                            <SlidebarMenu />
                         </IconButton>
                 </Hidden>
                 <SocialBox sx={{
