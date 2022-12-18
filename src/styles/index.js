@@ -26,7 +26,7 @@ const overrides = {
     Footer: {
       styleOverrides: {
         root: {
-          backgroundColor: 'yellow',
+          fontSize: '15',
         },
       },
     },

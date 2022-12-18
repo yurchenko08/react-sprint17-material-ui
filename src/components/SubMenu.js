@@ -16,6 +16,7 @@ export default function SubMenu() {
 
   return (
     <div>
+      (
       <Button
         id='basic-button'
         aria-controls={open ? 'basic-menu' : undefined}
@@ -27,6 +28,7 @@ export default function SubMenu() {
       >
         Stories
       </Button>
+      )
       <Menu
         id='basic-menu'
         anchorEl={anchorEl}
